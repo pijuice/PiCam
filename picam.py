@@ -26,14 +26,14 @@ file
 argument = "raspistill -o photo.jpg -t 0"
 filename = "photo.jpg"
 
-logo1 = pygame.image.load("/home/pi/Downloads/pijuice small.jpg")
+logo1 = pygame.image.load("/home/PiCam/PiJuice/pijuice small.jpg")
 logo2 = pygame.transform.scale(logo1,(320, 100))
 
 BACKDISPLAY.fill(WHITE)
 BACKDISPLAY.blit(logo2, (0, 70))
 pygame.display.flip()
 
-icon1 = pygame.image.load("/home/pi/Downloads/icon.jpg")
+icon1 = pygame.image.load("/home/PiCam/PiJuice/icon.jpg")
 icon2 = pygame.transform.scale(icon1,(200, 210))
 
 while True:
