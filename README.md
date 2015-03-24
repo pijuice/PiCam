@@ -1,7 +1,7 @@
 # PiCam
 This repo contains everything needed to run the PiJuice Compact Camera software. 
 
-Important: Before downloading, make sure that your have created a new directory for the download, within you home directory with the name PiCam.
+Important: Before downloading, make sure that you have created a new directory for the download within your home directory with the name PiCam.
 
 "cd"
 "mkdir PiCam"
